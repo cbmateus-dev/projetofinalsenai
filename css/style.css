@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    color: white; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+body{
+    background-color: gray;
+}
+
+ h3{
+     color: black;
+     justify-content: right;
+     display: flex;
+ }
+
+ 
+ .center-image{
+   background-position: center;
+   background-size: cover;   
+ }
+
+ #texto-main p{
+     color: black;
+ }
+
+ .btn{
+    border-radius: 16px;
+     text-decoration: none;
+     background-color: blue;
+     color: white;
+     padding: 6px 17px;
+         width: 180px;
+     }
+ 
+ .btn:hover {
+     border-radius: 16px;
+     background-color: white;
+     color: blue;
+ }
+ 
+ .header{
+     text-align: center;
+     padding: 20px;
+     border-bottom: 1px solid white;
+     text-decoration: none;
+     background-color: blue;
+     color: white;
+   
+ }
+ .header a{
+     color: white !important;
+     font-size: 20px;
+ }
+ .header a:hover{
+     text-decoration: underline !important;
+ }
+
+ .carousel-inner{
+     border-radius: 16px;
+ }
+ 
+ #header p{
+     margin-bottom: 0;
+ }
+ 
+ #container-logo {
+    
+     display: flex;
+    
+     justify-content: space-around;
+    
+       
+ }
+ #container-logo a:hover{
+    color: white; 
+}
+
+#container-logo a{
+    text-decoration: none;
+    color: black;
+    
+    }
+ 
+ .navbar{
+     font-weight: bold;
+ }
+ 
+ .nav{
+     display: block;
+     
+ }
+
+ #navbar a:hover{
+     color: blue;
+ }
+
+ #main-image-container{
+
+    margin-top: 200px;
+ }
+ 
+ .main-image{
+     border-radius: 16px;
+     height: 400px;
+     width: 100%;
+     background-image: url('../img/2.jpg');
+     margin-bottom: 25px;
+     position: relative;
+ }
+ 
+ .main-image-info{
+     background-color: blue;
+     padding: 20px;
+     position: absolute;     
+     bottom: 20px;
+     border-radius: 16px;
+ }
+
+ #imglogo{
+    margin-right: auto;
+    background-color: white;
+    height: 100px; 
+}
+
+.d-flex{
+    justify-content: right;
+}
+
+
+
+#searchbar{
+    border: 16px;
+    width: 400px;
+    border: 1px solid blue;
+    border-radius: 16px;
+    
+}
+
+
+  
+ /* Rodapé */
+ 
+ footer{
+     border-top: 1px solid white;
+     height: 100px;
+     padding: 20px;
+ }
+ 
+ #rede-social{
+     padding: 0px;
+     
+ }
+ .bi{
+     color: blue;
+ }
+ 
+ a:hover i{
+     color:black;
+ 
+ }
+ footer p{
+     text-align: center;
+     padding: 10px;
+     
+ }
+
+ 
+ 
+.bi-whatsapp{
+    color: #1da110;
+}
+.bi-envelope{
+    color: white;
+}
+
+#lineleft{
+         border-bottom: 3px solid white;
+   
+}
+
+#lineright{
+    
+    border-bottom: 3px solid blue;  
+}
+
+
+
+ 
+ 
